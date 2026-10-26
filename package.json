@@ -1,0 +1,15 @@
+{
+  "name": "indexnow-changed",
+  "version": "1.0.0",
+  "description": "Send only the pages that changed in a static site build to IndexNow (Bing, Yandex, Seznam, Naver, Yep).",
+  "type": "module",
+  "bin": { "indexnow-changed": "indexnow-changed.mjs" },
+  "files": ["indexnow-changed.mjs"],
+  "scripts": { "test": "node --test test/*.test.mjs" },
+  "engines": { "node": ">=18" },
+  "keywords": ["indexnow", "bing", "seo", "sitemap", "astro", "static-site", "cloudflare"],
+  "homepage": "https://novu.ee",
+  "repository": { "type": "git", "url": "https://github.com/novuwebsolutions/indexnow-changed.git" },
+  "author": "Novu Web Solutions OÜ (https://novu.ee)",
+  "license": "MIT"
+}
